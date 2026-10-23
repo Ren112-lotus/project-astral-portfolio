@@ -1,4 +1,4 @@
-# Project Astral — Members’ Portfolio
+# CGPポートフォリオ
 
 Project Astralのメンバーが手がけたゲーム、イラスト、Live2D、3Dモデルを紹介する静的ポートフォリオサイトです。
 
