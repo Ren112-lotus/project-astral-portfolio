@@ -101,6 +101,7 @@ h1,h2,h3{line-height:1.25;font-weight:900}
 .image-jacket img{object-position:center 49%}
 .image-caffeine img{object-fit:contain;background:#121410}
 .image-character img{object-fit:contain;background:#e8eeeb}
+.image-otiai-art img,.image-kajino-art img{object-fit:contain;background:#fff}
 .work-card h3{font-size:24px;letter-spacing:-.01em;margin:16px 0 10px}
 .work-card h3 a:hover{color:var(--accent)}
 .card-bottom{display:flex;flex-direction:column;align-items:flex-start;gap:10px;align-self:start}
