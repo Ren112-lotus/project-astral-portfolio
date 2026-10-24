@@ -4,46 +4,44 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="CGPポートフォリオ。">
-  <meta name="theme-color" content="#f5f4ee">
+  <meta name="theme-color" content="#eeece5">
   <meta name="robots" content="noindex, nofollow">
   <meta property="og:type" content="website">
   <meta property="og:title" content="CGPポートフォリオ">
   <meta property="og:description" content="CGPポートフォリオ。">
   <title>CGPポートフォリオ</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="style.css?v=f9dcc5402f7c">
-  <script src="script.js?v=4f2e3c5384cb" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap">
+  <link rel="stylesheet" href="style.css?v=3e64a434d44f">
+  <script src="script.js?v=31bf2a7f2087" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#works">作品一覧へスキップ</a>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="CGPポートフォリオ トップ"><span>CGPポートフォリオ</span></a>
-    <nav aria-label="メインナビゲーション"><a href="#works">作品一覧</a><a href="#members">メンバー</a><button class="print-button" type="button">印刷 <span aria-hidden="true">↗</span></button></nav>
+    <a class="brand" href="#top" aria-label="CGPポートフォリオ トップ">CGP<span>ポートフォリオ</span></a>
+    <nav aria-label="メインナビゲーション"><a href="#works"><span aria-hidden="true">01</span>作品一覧</a><a href="#members"><span aria-hidden="true">02</span>メンバー</a><button class="print-button" type="button">印刷 <span aria-hidden="true">↗</span></button></nav>
   </header>
   <main id="top">
     <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <h1 id="hero-title">CGP<br>ポートフォリオ</h1>
-        
-        <a class="button primary" href="#works">作品を見る <span aria-hidden="true">↓</span></a>
-        
-      </div>
+      <p class="hero-kicker"><span>Games / Illustration / Live2D / 3D</span><a href="#works">作品を見る <span aria-hidden="true">↓</span></a></p>
+      <h1 id="hero-title"><span class="hero-title-en">CGP</span><span class="hero-title-ja">ポートフォリオ</span></h1>
       <div class="hero-visual" aria-label="掲載作品のピックアップ">
-        <span class="visual-cross cross-one" aria-hidden="true">+</span><span class="visual-cross cross-two" aria-hidden="true">+</span>
-        <a href="#raythm" data-open="raythm" class="hero-piece hero-game"><img src="assets/raythm-screen.webp" alt="raythmのゲームプレイ画面" width="1800" height="1013" fetchpriority="high"><span>raythm <i aria-hidden="true">↗</i></span></a>
-        <a href="#jacket" data-open="jacket" class="hero-piece hero-art"><img src="assets/raythm-jacket.webp" alt="raythm収録曲ジャケットのイラスト" width="900" height="900"><span>ジャケット <i aria-hidden="true">↗</i></span></a>
-        <a href="#lizeria" data-open="lizeria" class="hero-piece hero-live"><img src="assets/lizeria.webp" alt="レゼリアのLive2Dモデル" width="1280" height="720"><span>レゼリア <i aria-hidden="true">↗</i></span></a>
-        
+        <a href="#raythm" data-open="raythm" class="hero-piece hero-game"><img src="assets/raythm-screen.webp" alt="raythmのゲームプレイ画面" width="1800" height="1013" fetchpriority="high"><span><b>Fig.01</b> raythm <i aria-hidden="true">↗</i></span></a>
+        <a href="#jacket" data-open="jacket" class="hero-piece hero-art"><img src="assets/raythm-jacket.webp" alt="raythm収録曲ジャケットのイラスト" width="900" height="900"><span><b>Fig.02</b> ジャケット <i aria-hidden="true">↗</i></span></a>
+        <a href="#lizeria" data-open="lizeria" class="hero-piece hero-live"><img src="assets/lizeria.webp" alt="レゼリアのLive2Dモデル" width="1280" height="720"><span><b>Fig.03</b> レゼリア <i aria-hidden="true">↗</i></span></a>
       </div>
     </section>
     <div class="disciplines wrap" aria-label="掲載作品の内訳"><a href="#works" data-filter-link="game"><b>08</b> Games <span>ゲーム</span></a><a href="#works" data-filter-link="art"><b>04</b> Illustration <span>イラスト</span></a><a href="#works" data-filter-link="live2d"><b>01</b> Live2D</a><a href="#works" data-filter-link="3d"><b>01</b> 3D Models</a></div>
     <section id="works" class="works-section wrap" aria-labelledby="works-title">
-      <div class="section-heading"><div><h2 id="works-title">作品一覧</h2></div></div>
+      <div class="section-heading"><span class="section-no" aria-hidden="true">01</span><h2 id="works-title">作品一覧</h2></div>
       <div class="filter-bar"><div class="filters" role="group" aria-label="作品のカテゴリを選択"><button type="button" data-filter="all" aria-pressed="true">すべて <span>14</span></button><button type="button" data-filter="game" aria-pressed="false">ゲーム <span>08</span></button><button type="button" data-filter="art" aria-pressed="false">イラスト <span>04</span></button><button type="button" data-filter="live2d" aria-pressed="false">Live2D <span>01</span></button><button type="button" data-filter="3d" aria-pressed="false">3D <span>01</span></button></div><p class="results" role="status" aria-live="polite"><span id="result-count">14</span> WORKS</p></div>
       <div class="works-grid"><article class="work-card" data-category="game" data-member="れん">
+      <p class="card-meta"><span>01</span><span>Game</span></p>
       <a class="card-image image-raythm" href="#raythm" data-open="raythm" aria-label="raythmの詳細を見る">
         <img src="assets/raythm-cover.webp" alt="raythmのロゴとリズムゲームのキービジュアル" loading="lazy" width="720" height="450">
-        <span class="image-index">01</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#raythm" data-open="raythm">raythm</a></h3>
@@ -51,9 +49,10 @@
       <div class="card-bottom"><span class="card-member">れん</span><div class="card-links"><a href="https://www.raythm.net/" target="_blank" rel="noopener noreferrer">公式サイト <span aria-hidden="true">↗</span></a><a href="https://store.steampowered.com/app/4969020/raythm/?l=japanese" target="_blank" rel="noopener noreferrer">Steamストア <span aria-hidden="true">↗</span></a></div></div>
     </article>
 <article class="work-card" data-category="live2d" data-member="Kanomii">
+      <p class="card-meta"><span>02</span><span>Live2D</span></p>
       <a class="card-image image-lizeria" href="#lizeria" data-open="lizeria" aria-label="レゼリアの詳細を見る">
         <img src="assets/lizeria.webp" alt="レゼリアのLive2Dモデル紹介動画のサムネイル" loading="lazy" width="720" height="450">
-        <span class="image-index">02</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#lizeria" data-open="lizeria">レゼリア</a></h3>
@@ -61,9 +60,10 @@
       <div class="card-bottom"><span class="card-member">Kanomii</span><div class="card-links"><a href="https://www.youtube.com/watch?v=seSnEh34uO0" target="_blank" rel="noopener noreferrer">紹介動画を見る <span aria-hidden="true">↗</span></a></div></div>
     </article>
 <article class="work-card" data-category="3d" data-member="42星（よつぼし）">
+      <p class="card-meta"><span>03</span><span>3D Model</span></p>
       <a class="card-image image-vrm" href="#vrm" data-open="vrm" aria-label="VRMキャラクターモデルの詳細を見る">
         <img src="assets/vrm-02.webp" alt="ピンクと紫の髪のVRMキャラクターモデル" loading="lazy" width="720" height="450">
-        <span class="image-index">03</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#vrm" data-open="vrm">VRMキャラクターモデル</a></h3>
@@ -71,9 +71,10 @@
       <div class="card-bottom"><span class="card-member">42星（よつぼし）</span></div>
     </article>
 <article class="work-card" data-category="game" data-member="Mackey">
+      <p class="card-meta"><span>04</span><span>Game</span></p>
       <a class="card-image image-duellatro" href="#duellatro" data-open="duellatro" aria-label="Duellatroの詳細を見る">
         <img src="assets/duellatro.webp" alt="Duellatroのトランプとチップを描いた作品ビジュアル" loading="lazy" width="720" height="450">
-        <span class="image-index">04</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#duellatro" data-open="duellatro">Duellatro</a></h3>
@@ -81,9 +82,10 @@
       <div class="card-bottom"><span class="card-member">Mackey</span><div class="card-links"><a href="https://unityroom.com/games/duellatro" target="_blank" rel="noopener noreferrer">unityroomで遊ぶ <span aria-hidden="true">↗</span></a></div></div>
     </article>
 <article class="work-card" data-category="game" data-member="Mackey">
+      <p class="card-meta"><span>05</span><span>Game</span></p>
       <a class="card-image image-tetriming" href="#tetriming" data-open="tetriming" aria-label="テトライミングの詳細を見る">
         <img src="assets/tetriming.webp" alt="青空とブロックを背景にしたテトライミングのタイトル画面" loading="lazy" width="720" height="450">
-        <span class="image-index">05</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#tetriming" data-open="tetriming">テトライミング</a></h3>
@@ -91,9 +93,10 @@
       <div class="card-bottom"><span class="card-member">Mackey</span><div class="card-links"><a href="https://unityroom.com/games/tetris-climbing-game" target="_blank" rel="noopener noreferrer">unityroomで遊ぶ <span aria-hidden="true">↗</span></a></div></div>
     </article>
 <article class="work-card" data-category="game" data-member="れん">
+      <p class="card-meta"><span>06</span><span>Game</span></p>
       <a class="card-image image-araiba" href="#araiba" data-open="araiba" aria-label="ARAIBAの詳細を見る">
         <img src="assets/araiba.webp" alt="キッチンと食器が描かれたARAIBAのタイトル画面" loading="lazy" width="720" height="450">
-        <span class="image-index">06</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#araiba" data-open="araiba">ARAIBA</a></h3>
@@ -101,9 +104,10 @@
       <div class="card-bottom"><span class="card-member">れん</span><div class="card-links"><a href="https://ren112-lotus.github.io/ARAIBA/" target="_blank" rel="noopener noreferrer">ブラウザで遊ぶ <span aria-hidden="true">↗</span></a></div></div>
     </article>
 <article class="work-card" data-category="game" data-member="topec">
+      <p class="card-meta"><span>07</span><span>Game</span></p>
       <a class="card-image image-runpage" href="#runpage" data-open="runpage" aria-label="Runpageの詳細を見る">
         <img src="assets/runpage.webp" alt="Runpageのタイトル画面" loading="lazy" width="720" height="450">
-        <span class="image-index">07</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#runpage" data-open="runpage">Runpage</a></h3>
@@ -111,9 +115,10 @@
       <div class="card-bottom"><span class="card-member">topec</span><div class="card-links"><a href="https://unityroom.com/games/runpage24-d" target="_blank" rel="noopener noreferrer">unityroomで遊ぶ <span aria-hidden="true">↗</span></a></div></div>
     </article>
 <article class="work-card" data-category="game" data-member="topec">
+      <p class="card-meta"><span>08</span><span>Game</span></p>
       <a class="card-image image-moai" href="#moai" data-open="moai" aria-label="モアイおとしの詳細を見る">
         <img src="assets/moai.webp" alt="モアイとハンマーが描かれたモアイおとしのタイトル画面" loading="lazy" width="720" height="450">
-        <span class="image-index">08</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#moai" data-open="moai">モアイおとし</a></h3>
@@ -121,9 +126,10 @@
       <div class="card-bottom"><span class="card-member">topec</span><div class="card-links"><a href="https://unityroom.com/games/moaiotoshi" target="_blank" rel="noopener noreferrer">unityroomで遊ぶ <span aria-hidden="true">↗</span></a></div></div>
     </article>
 <article class="work-card" data-category="game" data-member="topec">
+      <p class="card-meta"><span>09</span><span>Game</span></p>
       <a class="card-image image-bull" href="#bull" data-open="bull" aria-label="アモーレ！闘牛神の詳細を見る">
         <img src="assets/bull.webp" alt="闘牛場で闘牛士が牛を回避するゲーム画面" loading="lazy" width="720" height="450">
-        <span class="image-index">09</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#bull" data-open="bull">アモーレ！闘牛神</a></h3>
@@ -131,9 +137,10 @@
       <div class="card-bottom"><span class="card-member">topec</span><div class="card-links"><a href="https://unityroom.com/games/amo_bull" target="_blank" rel="noopener noreferrer">unityroomで遊ぶ <span aria-hidden="true">↗</span></a></div></div>
     </article>
 <article class="work-card" data-category="game" data-member="topec">
+      <p class="card-meta"><span>10</span><span>Game</span></p>
       <a class="card-image image-shake" href="#shake" data-open="shake" aria-label="Shake it Up!!の詳細を見る">
         <img src="assets/winter.webp" alt="Shake it Up!!のタイトル画面" loading="lazy" width="720" height="450">
-        <span class="image-index">10</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#shake" data-open="shake">Shake it Up!!</a></h3>
@@ -141,9 +148,10 @@
       <div class="card-bottom"><span class="card-member">topec</span><div class="card-links"><a href="https://negi310.github.io/Team_D_2025winter/" target="_blank" rel="noopener noreferrer">ブラウザで遊ぶ <span aria-hidden="true">↗</span></a></div></div>
     </article>
 <article class="work-card" data-category="art" data-member="Kanomii">
+      <p class="card-meta"><span>11</span><span>Illustration</span></p>
       <a class="card-image image-character" href="#character" data-open="character" aria-label="キャラクターデザインの詳細を見る">
         <img src="assets/character-design.webp" alt="赤と青緑を基調にした2人のキャラクターデザイン資料" loading="lazy" width="720" height="450">
-        <span class="image-index">11</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#character" data-open="character">キャラクターデザイン</a></h3>
@@ -151,9 +159,10 @@
       <div class="card-bottom"><span class="card-member">Kanomii</span></div>
     </article>
 <article class="work-card" data-category="art" data-member="Kanomii">
+      <p class="card-meta"><span>12</span><span>Illustration</span></p>
       <a class="card-image image-jacket" href="#jacket" data-open="jacket" aria-label="raythm 収録曲ジャケットの詳細を見る">
         <img src="assets/raythm-jacket.webp" alt="青と白を基調に、光と建築空間を描いたKN0Qのジャケット" loading="lazy" width="720" height="450">
-        <span class="image-index">12</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#jacket" data-open="jacket">raythm 収録曲ジャケット</a></h3>
@@ -161,9 +170,10 @@
       <div class="card-bottom"><span class="card-member">Kanomii</span></div>
     </article>
 <article class="work-card" data-category="art" data-member="Kanomii">
+      <p class="card-meta"><span>13</span><span>Illustration</span></p>
       <a class="card-image image-illustrations" href="#illustrations" data-open="illustrations" aria-label="イラストレーション集の詳細を見る">
         <img src="assets/kanomii-art-09.webp" alt="光のある背景とキャラクターを描いたイラスト" loading="lazy" width="720" height="450">
-        <span class="image-index">13</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#illustrations" data-open="illustrations">イラストレーション集</a></h3>
@@ -171,9 +181,10 @@
       <div class="card-bottom"><span class="card-member">Kanomii</span></div>
     </article>
 <article class="work-card" data-category="art" data-member="やっさん">
+      <p class="card-meta"><span>14</span><span>Illustration</span></p>
       <a class="card-image image-caffeine" href="#caffeine" data-open="caffeine" aria-label="カフェインチャージの詳細を見る">
         <img src="assets/caffeine.webp" alt="コーヒーが入った青いカップとソーサーのイラスト" loading="lazy" width="720" height="450">
-        <span class="image-index">14</span><span class="image-action" aria-hidden="true">↗</span>
+        
       </a>
       
       <h3><a href="#caffeine" data-open="caffeine">カフェインチャージ</a></h3>
@@ -183,8 +194,9 @@
       
     </section>
     <section id="members" class="members-section" aria-labelledby="members-title"><div class="wrap">
-      <div class="section-heading"><div><h2 id="members-title">作品紹介メンバー</h2></div></div>
-      <div class="members-table"><div class="member-row"><h3>れん</h3><span class="member-kind">ゲーム</span><div class="member-works"><a href="#raythm" data-open="raythm">raythm <span aria-hidden="true">↗</span></a><a href="#araiba" data-open="araiba">ARAIBA <span aria-hidden="true">↗</span></a></div></div>
+      <div class="section-heading"><span class="section-no" aria-hidden="true">02</span><h2 id="members-title">作品紹介メンバー</h2></div>
+      <div class="members-table"><div class="member-row member-head" aria-hidden="true"><span>Name</span><span>Field</span><span>Works</span></div>
+<div class="member-row"><h3>れん</h3><span class="member-kind">ゲーム</span><div class="member-works"><a href="#raythm" data-open="raythm">raythm <span aria-hidden="true">↗</span></a><a href="#araiba" data-open="araiba">ARAIBA <span aria-hidden="true">↗</span></a></div></div>
 <div class="member-row"><h3>Mackey</h3><span class="member-kind">ゲーム</span><div class="member-works"><a href="#duellatro" data-open="duellatro">Duellatro <span aria-hidden="true">↗</span></a><a href="#tetriming" data-open="tetriming">テトライミング <span aria-hidden="true">↗</span></a></div></div>
 <div class="member-row"><h3>topec</h3><span class="member-kind">ゲーム</span><div class="member-works"><a href="#runpage" data-open="runpage">Runpage <span aria-hidden="true">↗</span></a><a href="#moai" data-open="moai">モアイおとし <span aria-hidden="true">↗</span></a><a href="#bull" data-open="bull">アモーレ！闘牛神 <span aria-hidden="true">↗</span></a><a href="#shake" data-open="shake">Shake it Up!! <span aria-hidden="true">↗</span></a></div></div>
 <div class="member-row"><h3>Kanomii</h3><span class="member-kind">Live2D / イラスト</span><div class="member-works"><a href="#lizeria" data-open="lizeria">レゼリア <span aria-hidden="true">↗</span></a><a href="#character" data-open="character">キャラクターデザイン <span aria-hidden="true">↗</span></a><a href="#jacket" data-open="jacket">raythm 収録曲ジャケット <span aria-hidden="true">↗</span></a><a href="#illustrations" data-open="illustrations">イラストレーション集 <span aria-hidden="true">↗</span></a></div></div>
