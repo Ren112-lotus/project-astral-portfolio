@@ -63,7 +63,7 @@ h1,h2,h3{line-height:1.25;font-weight:900}
 .hero-piece:hover i{transform:translate(2px,-2px)}
 
 /* ---------- Discipline counts ---------- */
-.disciplines{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:56px;border-block:1px solid var(--ink)}
+.disciplines{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));margin-top:56px;border-block:1px solid var(--ink)}
 .disciplines a{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:8px;padding:18px 20px 20px;border-left:1px solid var(--rule);font-size:14px;font-weight:700;transition:background .15s,color .15s}
 .disciplines a:first-child{border-left:0}
 .disciplines a b{flex-basis:100%;font-family:var(--display);font-stretch:75%;font-size:64px;font-weight:800;line-height:1;margin-bottom:8px}
@@ -101,7 +101,7 @@ h1,h2,h3{line-height:1.25;font-weight:900}
 .image-jacket img{object-position:center 49%}
 .image-caffeine img{object-fit:contain;background:#121410}
 .image-character img{object-fit:contain;background:#e8eeeb}
-.image-otiai-art img,.image-kajino-art img{object-fit:contain;background:#fff}
+.image-shino-summer img,.image-shino-art img,.image-tsujino-models img,.image-otiai-art img,.image-kajino-art img{object-fit:contain;background:#fff}
 .work-card h3{font-size:24px;letter-spacing:-.01em;margin:16px 0 10px}
 .work-card h3 a:hover{color:var(--accent)}
 .card-bottom{display:flex;flex-direction:column;align-items:flex-start;gap:10px;align-self:start}
@@ -171,7 +171,8 @@ body.dialog-open{overflow:hidden}
   .site-header{padding-inline:20px}
   .hero h1{grid-template-columns:1fr;row-gap:12px}
   .disciplines{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .disciplines a:nth-child(3){border-left:0}
+  .disciplines a:nth-child(odd){border-left:0}
+  .disciplines a:last-child{grid-column:1/-1}
   .disciplines a:nth-child(n+3){border-top:1px solid var(--rule)}
   .disciplines a b{font-size:52px}
   .works-section{padding-top:88px}
@@ -190,7 +191,7 @@ body.dialog-open{overflow:hidden}
   .brand span{display:none}
   .site-header nav{gap:18px;font-size:13px}
   .site-header nav a span,.print-button{display:none}
-  .hero-kicker>span{font-size:10px}
+  .hero-kicker>span{font-size:10px;max-width:65%}
   .hero-title-en{font-size:clamp(120px,44vw,200px)}
   .hero-title-ja{font-size:clamp(30px,10vw,44px)}
   .hero-visual{flex-wrap:wrap;gap:20px 12px}
