@@ -147,6 +147,7 @@ h1,h2,h3{line-height:1.25;font-weight:900}
 .button:hover{background:var(--accent);color:#fff}
 .detail-gallery{display:grid;gap:16px;margin-top:24px}
 .detail-gallery figure{min-width:0}
+.detail-gallery video{display:block;width:100%;height:auto;max-height:74vh;background:#111;object-fit:contain}
 .detail-gallery figure>a{display:flex;justify-content:center;align-items:center;background:var(--paper-2)}
 .detail-gallery img{width:100%;max-height:74vh;object-fit:contain}
 .work-note{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:16px}

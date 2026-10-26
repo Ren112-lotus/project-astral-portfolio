@@ -26,6 +26,7 @@
     document.body.classList.add('js-ready');
     function restoreDetail() {
       if (activeDetail) {
+        activeDetail.section.querySelectorAll('video, audio').forEach(media => media.pause());
         activeDetail.marker.replaceWith(activeDetail.section);
         activeDetail = null;
       }
