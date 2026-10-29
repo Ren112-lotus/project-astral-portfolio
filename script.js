@@ -17,10 +17,9 @@
       if (!card.hidden) visible++;
     });
     filters.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === category)));
-    count.textContent = String(visible).padStart(2, '0');
+    count.textContent = String(visible);
   }
   filters.forEach(button => button.addEventListener('click', () => filterWorks(button.dataset.filter)));
-  document.querySelectorAll('[data-filter-link]').forEach(link => link.addEventListener('click', () => filterWorks(link.dataset.filterLink)));
 
   if (typeof dialog.showModal === 'function') {
     document.body.classList.add('js-ready');
